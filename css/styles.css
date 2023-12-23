@@ -13,6 +13,7 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-align: left;
+text-transform: uppercase;
 
 
 }
@@ -65,7 +66,9 @@ text-align: left;
 .header-content-link:hover,
 .contacts-list-link:hover,
 .header-content-link:active,
-.contacts-list-link:active {
+.contacts-list-link:active,
+.header-content-link:focus,
+.contacts-list-link:focus {
 color:#404BBF;
 text-decoration: none;
 
@@ -88,13 +91,7 @@ font-weight: 500;
 line-height: 1.50;
 letter-spacing: 0.04em;
 
-  width: 169px;
-  height: 56px;
-  top: 428px;
-  left: 636px;
-  padding: 16px, 32px, 16px, 32px;
-  border-radius: 4px;
-  gap: 10px;
+  
   
 }
 
