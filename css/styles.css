@@ -1,6 +1,7 @@
 body {
     font-family:"Roboto", sans-serif;
     color:#434455;
+    background-color: #FFFFFF;
   }
   
 .header-logo{
@@ -9,7 +10,7 @@ body {
   text-decoration: none;
 font-size: 18px;
 font-weight: 700;
-line-height: 21px;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-align: left;
 
@@ -20,48 +21,51 @@ text-align: left;
   color:#2E2F42;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
   
 }
 
-.header-content-list,
-.contacts-list {
-  list-style-type: none;
-}
-
-
 .header-content-link {
 color:#2E2F42;
 font-size: 16px;
 font-weight: 500;
-line-height: 24px;
+line-height: 1.50;
 letter-spacing: 0.02em;
 text-align: left;
 text-decoration: none;
 
+}
 
-
+.contacts {
+  font-style:normal;
 }
 
 .contacts-list-link {
-color:#2E2F42;
+color:#434455;
 text-decoration: none;
 font-family: Roboto;
 font-size: 16px;
 font-weight: 400;
-line-height: 24px;
+line-height: 1.50;
 letter-spacing: 0.02em;
 text-align: left;
-font-style:normal;
-
-
 
 }
 
+
+
+
+.header-content-list,
+.contacts-list-item {
+  list-style: none;
+}
+
 .header-content-link:hover,
-.contacts-list-link:hover {
+.contacts-list-link:hover,
+.header-content-link:active,
+.contacts-list-link:active {
 color:#404BBF;
 text-decoration: none;
 
@@ -81,7 +85,7 @@ text-decoration: none;
 font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
-line-height: 24px;
+line-height: 1.50;
 letter-spacing: 0.04em;
 
   width: 169px;
@@ -102,7 +106,7 @@ letter-spacing: 0.04em;
 
 font-size: 20px;
 font-weight: 500;
-line-height: 24px;
+line-height: 1.20;
 letter-spacing: 0.02em;
 text-align: left;
 
