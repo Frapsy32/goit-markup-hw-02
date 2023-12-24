@@ -56,8 +56,6 @@ text-align: left;
 }
 
 
-
-
 .header-content-list,
 .contacts-list-item {
   list-style: none;
@@ -109,7 +107,6 @@ cursor:pointer
 
   background-color:#404BBF;
 
-
 }
 
 
@@ -131,7 +128,7 @@ text-align: left;
 
 font-size: 16px;
 font-weight: 400;
-line-height: 24px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: left;
 
@@ -159,9 +156,6 @@ text-transform: capitalize;
 
 }
 
-
-
-
 .team-role {
 
 font-family: Roboto;
@@ -175,12 +169,39 @@ text-align: center;
 
 .section-portf-text{
   
+  color: #2E2F42;
 font-family: Roboto;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
+
+}
+
+.portf-list{
+  list-style-type: none;
+  color:#ffffff;
+}
+
+.portf-list-name{
+  color:#2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
+
+.portf-list-text{
+
+  color:#434455;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: left;
 
 }
 
