@@ -147,17 +147,16 @@ body {
 }
 
 .team-role {
-  font-family: Roboto;
+  color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 
 .section-portf-text {
   color: #2e2f42;
-  font-family: Roboto;
+
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
